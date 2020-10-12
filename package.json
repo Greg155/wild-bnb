@@ -1,0 +1,23 @@
+{
+  "name": "wild-bnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgdd/wild-bnb.git"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "author": "Wild BXL Sept 2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgdd/wild-bnb/issues"
+  },
+  "homepage": "https://github.com/pgdd/wild-bnb#readme"
+}
