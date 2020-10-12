@@ -6,7 +6,45 @@
         <link rel="stylesheet" href="./src/styles.css" />
     </head>
     <body>
-        <h1>Hello Wild</h1>
+        <nav>
+            <div class="main-nav">
+                <div class="logo"></div>
+                <div class="host">Devenez Hôte</div>
+            </div>
+            <div class="filters-bar">
+                <div class="custom-input">
+                    <label for="name">Lieux</label>
+                    <input type="text" name="name" placeholder="Ou voyagez-vous ?">
+                </div>
+                <div class="custom-input">
+                    <label for="type">Type de logement</label>
+                    <select>
+                        <option value="All">All</option>
+                        <option value="Flat">Flat</option>
+                        <option value="House">House</option>
+                    </select>
+                </div>
+                <div class="custom-input">
+                    <label for="available">Dispo ce soir</label>
+                    <input type="checkbox" name="available-checkbox" class="available-checkbox" id="">
+                
+                </div>
+
+            </div>
+        </nav>
+        <header class="hero-header">
+            <div class="hero-header__wrapper">
+                <h1>Des</h1>
+                <h1>Logements</h1>
+                <h1>Sauvages</h1>
+                <h2>Trouvez votre nouveau chez-vous. Découvrez des logements à proximité pour vous installer, travailler, ou tout simplement vous détendre.</h2>
+            </div>
+        </header>
+
+        <div class="content_wrapper">
+            <div class="cards"></div>
+        </div>
+
         <script src="./src/script.js"></script>
     </body>
 </html>
