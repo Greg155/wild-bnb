@@ -117,11 +117,12 @@ header {
 
 /*  */
 
+/* Content */
+
 
 .content_wrapper {
     padding-top: 20px 66px 20px 66px;
 }
-
 
 .cards {
     display: flex;
