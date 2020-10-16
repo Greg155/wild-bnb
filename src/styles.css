@@ -116,3 +116,50 @@ header {
 }
 
 /*  */
+
+
+.content_wrapper {
+    padding-top: 20px 66px 20px 66px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.card {
+    width: 30%;
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card-img {
+    height: 40vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://source.unsplash.com/random");
+  }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 16px 16px;
+}
+
+.card-button {
+    border: none;
+    border-radius: 16px;
+    height: 50px;
+    background-color: white;
+    width: 60px;
+    position: relative;
+    bottom: 260px;
+    left: 350px;
+}
