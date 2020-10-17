@@ -23,7 +23,7 @@ const render = ( housseList ) => {
 // Let's add an event listener on this input
 searchInput.addEventListener("input", (event) => {
   // Let's filter our list according to the new value typed in input
-  let filterdListing = houseToRent.filter(house => house.name.includes(event.target.value))
+  let filteredListing = houseToRent.filter(house => house.name.includes(event.target.value))
 
   // And we render again. Remember, within render, we will clear the content, and recreate a card for each
   // housses of the listing given as argument.
