@@ -1,6 +1,11 @@
-TODO:
+###
+    npm i && npm start
+###
 
-UX ANALYSYS Airbnb (like Deliveroo Quest)
-How to do a hero header ?
-Create a search bar
-Filtering results with JS(training on arrays functions)
+###
+#0 Github, Git, 
+#1 UX ANALYSYS Airbnb (like Deliveroo Quest)
+#2 How to create a hero header ?
+#3 A simple search bar component
+#4 Filtering results making use of arrays function such as filter() & forEach()
+###
